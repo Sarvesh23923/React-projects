@@ -1,0 +1,50 @@
+.app{
+  margin: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu, .quiz, .end-screen{
+  margin: 1.5rem;
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 214, 186);
+  border-radius: 20px;
+  gap: 1.5rem;
+}
+
+.menu input, button{
+  width: 20rem;
+  height: 3rem;
+  border: none;
+  outline: none;
+}
+
+.menu input{
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+button{
+  border-radius: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.questions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.questions button:active, .questions button:focus{
+  border: 2px solid black;
+}

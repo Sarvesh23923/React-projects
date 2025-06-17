@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1{
+  color: #000;
+}
+
+input{
+  margin: 1rem;
+  width: 20rem;
+  height: 3rem;
+  font-size: 1.1rem;
+  padding-left: 0.5rem;
+}
+
+button{
+  width: 5rem;
+  height: 3.3rem;
+  border: none;
+  border-radius: 20px;
+}
+
+ul{
+  display: grid;
+  place-items: center;
+}
+
+li{
+  list-style: none;
+  width: 300px;
+  height: 40px;
+  background: #00df6c;
+  margin: 10px;
+  padding-top: 20px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.tasks{
+  display: flex;
+  align-items: center;
+}
+
+.tasks p{
+  font-family: monospace;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+.add-btn{
+  background: orange;
+  color: white;
+}
+
+.complete-btn{
+  background: orange;
+  color: white;
+  border: none;
+  margin-right: 0.8rem;
+}
+
+.delete-btn{
+  background: crimson;
+  color: #fff;
+  border: none;
+  outline: none;
+}
