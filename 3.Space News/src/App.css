@@ -1,0 +1,44 @@
+.app{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title{
+  width: 100%;
+  font-size: 1.1rem;
+  margin: 0;
+  text-align: center;
+}
+
+.news-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-container .article{
+  width: 30rem;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.article .img-container{
+  width: 25rem;
+}
+
+.img-container img{
+  width: 100%;
+}
