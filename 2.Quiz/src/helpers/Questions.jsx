@@ -13,7 +13,17 @@ const Questions = [
         optionA: 'Python',
         optionB: 'Javascript',
         optionC: 'MC-03',
-        optionD: 'C'
+        optionD: 'C',
+        answer: 'optionC'
+    },
+
+    {
+        prompt: 'Which among these is not a Javascript framework?',
+        optionA: 'React',
+        optionB: 'Angular',
+        optionC: 'Vue',
+        optionD: 'Java',
+        answer: 'optionD'
     }
 ];
 

@@ -48,3 +48,7 @@ button{
 .questions button:active, .questions button:focus{
   border: 2px solid black;
 }
+
+.next-btn{
+  width: 15rem;
+}

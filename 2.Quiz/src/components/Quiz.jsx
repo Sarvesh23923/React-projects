@@ -18,15 +18,14 @@ const Quiz = () => {
         if(!optionChosen) return //Prevents skipping without selecting
 
         if(Questions[currentQuestion].answer === optionChosen){
-            setScore(prev => prev + 1);
+            setScore(score + 1);
         }
         setCurrentQuestion(currentQuestion + 1);
-        setOptionChosen('')
     }
 
     const finishQuiz = () => {
         if(Questions[currentQuestion].answer === optionChosen){
-            setScore(prev => prev + 1)
+            setScore(score + 1)
         }
         setGameState('completed')
     }
@@ -43,9 +42,9 @@ const Quiz = () => {
             </div>
 
             {currentQuestion === Questions.length - 1 ? (
-                <button onClick={finishQuiz}>Finish Quiz</button>
+                <button className='next-btn' onClick={finishQuiz}>Finish Quiz</button>
             ) : (
-                <button onClick={nextQuestion}>Next Question</button>
+                <button className='next-btn' onClick={nextQuestion}>Next Question</button>
             )}
         </div>
     )
